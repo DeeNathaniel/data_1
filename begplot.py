@@ -4,6 +4,14 @@ opening plots in matplot
 import matplotlib
 import numpy as np
 import pylab as pl
+import pandas
+import csv
+
+
+#converting input into an array wheere a = input data
+a = [1,2]
+np.asarray(a)
+
 
 # opening as empty plot
 # need to import matplotlib, numpy and pylab
