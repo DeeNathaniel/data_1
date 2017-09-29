@@ -1,0 +1,17 @@
+
+
+csv = np.genfromtxt ('/home/dee/Documents/data_1/enhancedcorrelationonly.csv', delimiter = ",")
+first = csv[:,0]
+second = csv[:,1]
+third = csv[:,2]
+fourth = csv [:,3]
+fifth = csv [:,4]
+
+x = [first,second,third,fourth,fifth]
+
+for i in range (len(x)):
+	plt.figure()
+	plt.plot(x[i])
+	plt.title('Enhanced Correlation data')
+	plt.ylabel('correlation')
+	plt.xlabel('images')
